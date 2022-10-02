@@ -21,20 +21,20 @@ public class CustomerDepositUseCase {
 		
 		System.out.println("Enter your Account Number");
 		
-		int AccountNumber =sc.nextInt();
+		int accountNumber =sc.nextInt();
 		
-		CustomerDao dao = new CustomerImpl();
+		CustomerDao cdao = new CustomerImpl();
 		
-		AccountantDao dao1 =new AccountantImpl();
+		AccountantDao adao =new AccountantImpl();
 		
 		
 		
 		try {
 			
 			
-			String message =dao.depositAmount(Amount, AccountNumber);
+			String message =cdao.depositAmount(Amount, accountNumber);
 			
-			CustomerBean customer =dao1.showCustomer(AccountNumber);
+			CustomerBean customer =adao.showCustomer(accountNumber);
 			
 			System.out.println(message+customer.getBalance() );
 			
