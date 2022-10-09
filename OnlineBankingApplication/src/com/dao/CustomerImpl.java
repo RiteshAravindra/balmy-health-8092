@@ -227,7 +227,7 @@ public class CustomerImpl implements CustomerDao{
 				int res = ps.executeUpdate();
 				
 				if(res>0) {
-					message ="Amount Added Sucessfully";
+					message ="Amount deducted Sucessfully";
 				}else {
 					message ="Failed withdraw";
 				}
