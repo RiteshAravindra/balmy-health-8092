@@ -1,7 +1,5 @@
 # balmy-health-8092
 
-
-
 # Online-Banking-System
 # Description :-
 The objective of this project is to maintain the accounts like saving account, withdrawing, depositing money and applying loan to the user. Bank provides account number to the customer for dealing transactions in the bank. At first a user registers himself/herself as customer. After that account can be opened. A customer can open more than one account.
@@ -27,7 +25,7 @@ The objective of this project is to maintain the accounts like saving account, w
 # Important:-</br>
 🚨 Forking this repo (please read!)<br>
 
-This repositoty is fully Open Source, Feel free to clone this, yes you heard it right - you can fork this repo. Before that please give me a star, fork it and customize as per your wish. If you face any dificulty you can connect with me mail.dabbesaiprasad8@gmail.com.</br>
+This repositoty is fully Open Source, Feel free to clone this, yes you heard it right - you can fork this repo. Before that please give me a star, fork it and customize as per your wish. If you face any dificulty you can connect with me mail riteshingaleshwar@gmail.com.</br>
 • This App Will use MySQL for storing Data</br>
 • For that You must to create 3 tables in your local machine to make this App works this are follows:-</br>
 ![alt text](Tables.png)</br>
